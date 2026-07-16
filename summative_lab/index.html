@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LexiFinder Dictionary</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="top-section">
+            <h1>📚 LexiFinder</h1>
+            <p>Discover word meanings, pronunciations and examples.</p>
+        </header>
+
+        <section class="search-box">
+
+            <form id="dictionary-search">
+
+                <input
+                    type="text"
+                    id="search-word"
+                    class="search-field"
+                    placeholder="Type a word..."
+                    autocomplete="off"
+                    required
+                >
+
+                <button type="submit" class="find-btn">
+                    Search
+                </button>
+
+            </form>
+
+        </section>
+
+        <section id="word-display" class="word-display">
+
+            <div class="welcome-card">
+
+                <h2>Welcome!</h2>
+
+                <p>
+                    Enter any English word above and press
+                    <strong>Search</strong>.
+                </p>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
